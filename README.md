@@ -1,9 +1,18 @@
-# Formal Languages and Compilers (IFJ)
+# IFJ Compiler: Lexical, Syntactic, and Semantic Analysis
 
-A comprehensive compiler project for a subset of a programming language, including lexical, syntactic, and semantic analysis.
+## Overview
+A collaborative project to build a full compiler for a subset of a programming language. Features a hand-written lexical analyzer (scanner), a top-down parser (LL grammar), a semantic analyzer with symbol tables (BST), and a target code generator.
 
-## Course
-FIT VUT in Brno
+## Key Features
+- **Lexical Analysis:** FSM-based scanner to tokenize source code.
+- **Parser:** LL(1) recursive descent parser for syntactic validation.
+- **Symbol Table:** Uses Binary Search Trees for efficient scope and variable management.
+- **Code Generation:** Generates intermediate code (IFJcode25) for a virtual machine.
+
+## Course Information
+- **Institution:** Faculty of Information Technology, Brno University of Technology (FIT VUT)
+- **Course:** 
 
 ## Author
-Tomáš Zvoníček (xzvonit00)
+- **Name:** Tomáš Zvoníček
+- **Login:** xzvonit00
